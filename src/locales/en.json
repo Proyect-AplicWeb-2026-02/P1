@@ -1,0 +1,19 @@
+﻿{
+  "toolbar": {
+    "title": "Harvard Art Museums Catalog",
+    "logoAlt": "Harvard Art Museums logo"
+  },
+  "footer": {
+    "copyright": "Copyright © {year} Harvard Art Museums. All rights reserved.",
+    "developedBy": "Developed by"
+  },
+  "artworkList": {
+    "title": "Artwork List"
+  },
+  "artworkCard": {
+    "assetInformation": "Art Asset Information",
+    "share": "Share Information",
+    "shareTitle": "Harvard Art Museums Catalog",
+    "shareCopied": "Link copied to clipboard"
+  }
+}
