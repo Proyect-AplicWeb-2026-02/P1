@@ -20,7 +20,6 @@ import es from './locales/es.json';
 
 import 'primeicons/primeicons.css';
 import 'primeflex/primeflex.css';
-import './assets/main.css';
 
 const i18n = createI18n({
     legacy: false,
@@ -35,6 +34,8 @@ app.use(PrimeVue, {
     theme: {
         preset: Material
     }
+    licenseKey: import.meta.env.VITE_PRIME_UI_LICENSE_KEY
+
 });
 app.use(i18n);
 
